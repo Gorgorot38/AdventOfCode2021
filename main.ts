@@ -1,8 +1,9 @@
 import { Day01 } from './days/day01';
 import * as fs from 'fs';
+import { Day02 } from './days/day02';
 
-const file = fs.readFileSync('inputs/input_day01.txt', 'utf8').split('\n');
+const file = fs.readFileSync('inputs/input_day02.txt', 'utf8').split('\n');
 
-const day01 = new Day01(file);
+const day = new Day02(file);
 
-console.log(day01.part2());
+console.log(day.part2());
