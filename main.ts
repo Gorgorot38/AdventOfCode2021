@@ -1,9 +1,10 @@
 import { Day01 } from './days/day01';
 import * as fs from 'fs';
 import { Day02 } from './days/day02';
+import { Day03 } from './days/day03';
 
-const file = fs.readFileSync('inputs/input_day02.txt', 'utf8').split('\n');
+const file = fs.readFileSync('inputs/input_day03.txt', 'utf8').split('\n');
 
-const day = new Day02(file);
+const day = new Day03(file);
 
 console.log(day.part2());
