@@ -9,9 +9,10 @@ import { Day07 } from './days/day07';
 import { Day08 } from './days/day08';
 import { Day09 } from './days/day09';
 import { Day10 } from './days/day10';
+import { Day11 } from './days/day11';
 
-const file = fs.readFileSync('inputs/input_day10.txt', 'utf8').split('\n');
+const file = fs.readFileSync('inputs/input_day11.txt', 'utf8').split('\n');
 
-const day = new Day10(file);
+const day = new Day11(file);
 
 console.log(day.part2());
