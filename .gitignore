@@ -8,6 +8,7 @@
 *.js
 *.js.map
 node_modules
+prints
 
 # Created by git when using merge tools for conflicts
 *.BACKUP.*
