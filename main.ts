@@ -16,9 +16,10 @@ import { Day14 } from './days/day14';
 import { Day15 } from './days/day15';
 import { Day16 } from './days/day16';
 import { Day17 } from './days/day17';
+import { Day18 } from './days/day18';
 
-const file = fs.readFileSync('inputs/input_day17.txt', 'utf8').split('\n');
+const file = fs.readFileSync('inputs/input_day18.txt', 'utf8').split('\n');
 
-const day = new Day17(file);
+const day = new Day18(file);
 
 console.log(day.part2());
