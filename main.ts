@@ -27,4 +27,4 @@ const file = fs.readFileSync('inputs/input_day24.txt', 'utf8').split('\n');
 
 const day = new Day24(file);
 
-console.log(day.part1());
+console.log(day.part2());
